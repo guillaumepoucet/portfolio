@@ -1,0 +1,99 @@
+#main,
+section,
+.tips-art {
+    background-color: white !important;
+}
+
+.navbar .btn,
+.main a {
+    border-color: orange;
+}
+
+.navbar .btn,
+.main a,
+#competences h2,
+.navbar a:hover,
+.tips-header h2 {
+    color: orange !important;
+}
+
+a,
+#parallax h5,
+#parallax p {
+    color: #171717 !important;
+}
+
+.navbar-lg {
+    background-color: white;
+    transition: 0.2s
+}
+
+.navbar-dk {
+    background-color: #171717;
+    transition: 0.2s;
+}
+
+.navbar-dk a {
+    color: white !important;
+}
+
+.navbar .btn:hover,
+#footer p {
+    border-color: white;
+}
+
+.navbar .btn:hover,
+#myBtn,
+#competences,
+#projets h2,
+#footer p,
+.tips-header {
+    color: white !important;
+}
+
+#competences,
+#projets,
+#myBtn:hover,
+.tips-header {
+    background-color: #171717 !important;
+}
+
+.card-body,
+#footer,
+#myBtn,
+.formation-box {
+    background-color: orange !important;
+}
+
+#parallax {
+    background-color: #dea95961;
+}
+
+.code,
+code {
+    background: rgba(135, 131, 120, 0.15);
+}
+
+code {
+    color: #eb5757;
+}
+
+.maquette {
+    background-color: #BA2D0B;
+}
+
+.vitrine {
+    background-color: #792359;
+}
+
+.entreprise {
+    background-color: #1098F7;
+}
+
+.equipe {
+    background-color: #2D3047;
+}
+
+.admin {
+    background-color: #048B8C;
+}

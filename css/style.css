@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+h2,
+h5 {
+    font-weight: bold !important;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 0px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    height: 100px;
+    /* Set the height of the btn */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    font-size: 39px;
+    /* Increase font size */
+}
+
+.navbar .btn,
+.main a {
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+
+#main .main {
+    padding-top: 57px;
+}
+
+.tips-header {
+    margin-top: 57px;
+}
+
+section {
+    padding: 135px 0px;
+}
+
+.tips-header {
+    padding: 57px 0px;
+}
+
+#competences i,
+#parcours i {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 1px;
+    text-align: center;
+}
+
+.web-progress-title {
+    margin-bottom: 4px;
+    font-size: 0.90rem;
+}
+
+.progress {
+    margin-bottom: 5px;
+    height: 20px;
+    width: 250px;
+}
+
+.progress,
+.progress-bar {
+    box-shadow: 1px 1px 2px #80808091 inset, 0px -1px 2px #80808082 inset;
+}
+
+.progress-bar {
+    box-shadow: 1px 1px 2px #80808091 inset, 0px -1px 2px #80808082 inset, 0px 0px 2px orange;
+}
+
+.formation {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.formation-hist {
+    min-width: 240px;
+}
+
+.card {
+    border: none;
+    text-decoration: none;
+}
+
+.card-:hover {
+    text-decoration: none;
+}
+
+a span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.tag {
+    color: white;
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+
+.card-img {
+    height: 250px !important;
+    overflow: hidden !important;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-body .fa-external-link-alt {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.vitrine-simplon {
+    height: auto !important;
+}
+
+#parallax {
+    background-image: url(../ressources/website4.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100% !important;
+    background-blend-mode: overlay;
+}
+
+#parallax section {
+    padding-top: 80px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/* Footer */
+
+#footer {
+    height: 100px !important;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+#footer p {
+    display: block;
+    border: 2px solid;
+    padding: 7px 15px 8px 15px;
+    font-weight: bold;
+}
+
+/* CSS tips */
+.code,
+code {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 85%;
+    padding: 1.5em 1em;
+}
+code {
+    padding: 0.2em 0.4em !important;
+}
+
+@media (max-width: 575.98px) {
+    section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .progress {
+        width: 100%;
+    }
+    #myBtn {
+        height: 50px;
+        padding: 0px;
+        width: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+    .web-progress {
+        margin-top: 86.40px !important;
+    }
+    #parallax section {
+        background-color: #ffffffc2 !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .formation-box {
+        min-width: 350px;
+    }
+}
