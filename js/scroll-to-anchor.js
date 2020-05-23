@@ -15,24 +15,17 @@ $('a[href*="#"]:not([href="#"])').click(function () {
     }
 });
 
-function getTopY() {
-    var compTop = $('#competences').offset().top - navHeight;
-    var compParcours = $('#parcours').offset().top - navHeight;
-    var compProjets = $('#projets').offset().top - navHeight;
-    var compParallax = $('#parallax').offset().top - navHeight;
-}
 
-var compTop = $('#competences').offset().top - navHeight;
-var compParcours = $('#parcours').offset().top - navHeight;
-var compProjets = $('#projets').offset().top - navHeight;
-var compParallax = $('#parallax').offset().top - navHeight;
+var compTop = $('#competences').offset().top - navHeight*2;
+var compParcours = $('#parcours').offset().top - navHeight*2;
+var compProjets = $('#projets').offset().top - navHeight*2;
+var compParallax = $('#parallax').offset().top - navHeight*2;
 
 $(window).resize(function () {
 
 });
 
 $(document).scroll(function () {
-    getTopY();
     var position = $(document).scrollTop();
     console.log(position)
     console.log(compParcours)
